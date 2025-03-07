@@ -14,6 +14,9 @@
 .display-flex{
   display: flex;
 }
+*{
+    margin: 0px;
+}
 
 /* header style  */
 .school{
@@ -27,6 +30,7 @@
 
 .navbar{
   flex-direction: space-between;
+  margin: 5px;
 }
 .navbar > ul > li{
     list-style: none;
@@ -67,6 +71,7 @@
 /* styled banner section */
 .banner{
     gap: 150px;
+    margin: 15px;
 }
 
 .banner-title{
@@ -95,6 +100,7 @@
 /* styled curriculum section */
 .Stander-Curriculum{
   background: url(../assets/bg.png);
+  margin: 10px;
 }
 .curriculum{
   gap: 35px;
@@ -193,7 +199,31 @@
   padding: 10px;
  
 }
-
+/* our story styled */
+.our-stories{
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.our-story{
+   padding: 40px;
+   gap: 100px;
+}
+.story-title{
+    font-size: 46px;
+    font-weight:700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.story-description{
+    background :rgb(249, 248, 250);
+}
+.img-1{
+    width: 500px;
+}
+.img-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 20px;
+}
 /* footer style */
 
 
